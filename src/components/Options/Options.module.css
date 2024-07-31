@@ -1,0 +1,23 @@
+.listBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+
+  transition: background-color 0.5s ease, color 0.3s ease;
+  background-color: rgb(47, 154, 211);
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.btn:active,
+.btn:hover {
+  background-color: #d3d3d3;
+  color: rgb(43, 26, 26);
+}
