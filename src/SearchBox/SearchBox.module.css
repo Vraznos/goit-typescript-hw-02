@@ -1,0 +1,20 @@
+.findContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.findLabel {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  text-decoration: solid;
+}
+
+.findInput {
+  width: 100%;
+  border: 2px solid darkgray;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 6px;
+}

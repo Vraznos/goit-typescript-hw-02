@@ -1,9 +1,0 @@
-.listFeedback {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  font-size: 18px;
-  line-height: 50px;
-  font-weight: 700;
-}

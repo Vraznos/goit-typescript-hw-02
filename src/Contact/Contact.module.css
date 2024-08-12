@@ -1,0 +1,42 @@
+.contact {
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.contactName {
+  margin: 0;
+}
+
+.contactPhone {
+  margin: 0;
+  color: inherit;
+}
+
+.contactPhone:hover {
+  color: rgb(52, 138, 191);
+}
+
+.btn {
+  border-radius: 8px;
+  border: 2px solid darkgray;
+  padding: 8px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  height: 50px;
+}
+
+.btn:hover {
+  background-color: gray;
+  transition: 400ms;
+  color: beige;
+}
+
+.icon {
+  size: 20px;
+  margin-right: 10px;
+}
