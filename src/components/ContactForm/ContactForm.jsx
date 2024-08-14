@@ -22,14 +22,12 @@ export default function ContactForm({ onAdd }) {
   const numberId = useId();
 
   const initValue = {
-    id: nanoid(),
     name: "",
     number: "",
   };
 
   const handleSubmit = (values, actions) => {
-    console.log(values);
-    onAdd(values);
+    onAdd({ ...values, id: nanoid() });
     actions.resetForm();
   };
 
